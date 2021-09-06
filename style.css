@@ -1,0 +1,79 @@
+:root {
+    --header-text-color: #e9edf5;
+    --header-background-color: #45CCFF;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.leftHeader > img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.leftHeader > h1 {
+    font-size: 2.5rem;
+    cursor: default;
+}
+
+.rightHeader {
+    margin: 1rem 0rem;
+}
+
+.rightHeader > * {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.rightHeader > *:hover {
+    border-bottom: 3px solid var(--header-text-color);
+}
+
+#content {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.image {
+    background-image: url(../src/images/atlantis.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content > p {
+    font-size: 2rem;
+    color: var(--header-text-color);
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0 1rem;
+}
