@@ -29,7 +29,7 @@ const contactScreen = () => {
 
     const locationImage = document.createElement('img');
     locationImage.id = 'locationImage';
-    locationImage.src = '../src/images/marmara-map.png';
+    locationImage.src = 'images/marmara-map.png';
     contactContainer.appendChild(locationImage);
 }
 

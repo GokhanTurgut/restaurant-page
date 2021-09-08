@@ -7,7 +7,7 @@ const menuScreen = () => {
 
     const item1 = document.createElement('div');
     const image1 = document.createElement('img');
-    image1.src = '../src/images/kebab-mix.jpg';
+    image1.src = 'images/kebab-mix.jpg';
     image1.classList.add('menuImage');
     item1.appendChild(image1);
     const description1 = document.createElement('div');
@@ -18,7 +18,7 @@ const menuScreen = () => {
 
     const item2 = document.createElement('div');
     const image2 = document.createElement('img');
-    image2.src = '../src/images/kebab-plate.jpg';
+    image2.src = 'images/kebab-plate.jpg';
     image2.classList.add('menuImage');
     item2.appendChild(image2);
     const description2 = document.createElement('div');
@@ -29,7 +29,7 @@ const menuScreen = () => {
 
     const item3 = document.createElement('div');
     const image3 = document.createElement('img');
-    image3.src = '../src/images/kebab-sandwich.jpg';
+    image3.src = 'images/kebab-sandwich.jpg';
     image3.classList.add('menuImage');
     item3.appendChild(image3);
     const description3 = document.createElement('div');
@@ -40,7 +40,7 @@ const menuScreen = () => {
 
     const item4 = document.createElement('div');
     const image4 = document.createElement('img');
-    image4.src = '../src/images/vegan-salad.jpg';
+    image4.src = 'images/vegan-salad.jpg';
     image4.classList.add('menuImage');
     item4.appendChild(image4);
     const description4 = document.createElement('div');

@@ -10,7 +10,7 @@ const navbar = (() => {
     header.appendChild(leftHeader);
     
     const tridentLogo = document.createElement('img');
-    tridentLogo.src = '../src/images/trident.png';
+    tridentLogo.src = 'images/trident.png';
     leftHeader.appendChild(tridentLogo);
     
     const nameTag = document.createElement('h1');
